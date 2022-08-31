@@ -14,21 +14,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <header class="nav-header-container">
-            <img src="https://yt3.ggpht.com/lmKg0gWwNVWsDKWntjAJ9rH0F1YjCtL6ThiG4pTxLJBgwmI3W-Rrl_LnHq5U-LiktjpbTA2r=s176-c-k-c0x00ffffff-no-rj" alt="" class="nav-header-image">
+    <header id="header">
+        <div class="nav-title">
+            <img src="https://yt3.ggpht.com/lmKg0gWwNVWsDKWntjAJ9rH0F1YjCtL6ThiG4pTxLJBgwmI3W-Rrl_LnHq5U-LiktjpbTA2r=s176-c-k-c0x00ffffff-no-rj" alt="Joey face" id="header-img">
             <p class="nav-header-title">Dr. Jelly</p>
-        </header>
-        <ul class="nav-container-link">
-            <li class="nav-link"><a href="#video" class="nav-link-a">Innovations</a></li>
-            <li class="nav-link"><a href="#our-teams" class="nav-link-a">Our Teams</a></li>
-            <li class="nav-link"><a href="#pricing" class="nav-link-a">Pricing</a></li>
-        </ul>
-    </nav>
+        </div>
+        <nav id="nav-bar">
+            <ul class="nav-container-link">
+                <li class="li-link"><a href="#video" class="nav-link">Innovations</a></li>
+                <li class="li-link"><a href="#our-teams" class="nav-link">Our Teams</a></li>
+                <li class="li-link"><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="form-section">
         <form action="https://www.freecodecamp.com/email-submit" id="form">
             <label for="form-title" class="form-title">Dr. Jelly, all you need in life!</label>
-            <input type="email" id="email" placeholder="e-mail" required>
+            <input type="email" id="email" placeholder="e-mail" name="email" required>
             <input type="submit" id="submit" value="Get Started">
         </form>
     </section>
@@ -37,8 +39,8 @@
             <p class="features-text"><i class="fa-solid fa-award fa-xl feat-logos"></i>  Approved by all doctors and chefs</p>
             <p class="features-text"><i class="fa-solid fa-star feat-logos"></i>  It can be used from hairstyling to a sunscreen</p>
     </section>
-    <section id="video">
-        <iframe loading="lazy" id="dr-jelly" width="60%" height="400" src="https://www.youtube.com/embed/j_TbT2C-9Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="dr-jelly">
+        <iframe loading="lazy" id="video" width="60%" height="400" src="https://www.youtube.com/embed/j_TbT2C-9Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <hr class="thunder-cross-split-attack">
     <section id="our-teams">
