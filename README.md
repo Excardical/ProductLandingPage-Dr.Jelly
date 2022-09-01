@@ -1,7 +1,6 @@
-The 4th project remake of FCC project because of a new curriculum (Responsive Web Design) that has been added.
+A project by Excardical.
 
-1st = Survey Form
-2nd = Tribute Page
-3rd = Technical Documentation Page
-4th = Product Landing Page
-5th = Personal Portfolio
+The 4th remake project of the FCC Responsive Web Design - Product Landing Page.
+It has a theme of Dr. Jelly, a make up brand for entertainment purpose from the channel Abroad in Japan.
+
+
